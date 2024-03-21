@@ -64,7 +64,7 @@ class CropImageView @JvmOverloads constructor(
 
   /** Animation class to smooth animate zoom-in/out  */
   private var mAnimation: CropImageAnimation? = null
-  private var originalBitmap: Bitmap? = null
+  var originalBitmap: Bitmap? = null
 
   /** The image rotation value used during loading of the image, so we can reset to it  */
   private var mInitialDegreesRotated = 0
@@ -732,15 +732,6 @@ class CropImageView @JvmOverloads constructor(
       loadSampleSize = 1,
       degreesRotated = 0,
     )
-  }
-
-  /**
-   * Sets a Camera Bitmap as the content of the CropImageView.
-   *
-   * [bitmap] the Bitmap to set
-   */
-  fun setCameraImageBitmap(bitmap: Bitmap?) {
-      originalBitmap = bitmap;
   }
 
   /**
