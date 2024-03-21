@@ -30,7 +30,7 @@ plugin-paparazzi = { module = "app.cash.paparazzi:paparazzi-gradle-plugin", vers
 plugin-publish = { module = "com.vanniktech:gradle-maven-publish-plugin", version = "0.25.3" }
 robolectric = { module = "org.robolectric:robolectric", version = "4.9" }
 timber = { module = "com.jakewharton.timber:timber", version = "5.0.1" }
-
-[plugins]
-codequalitytools = { id = "com.vanniktech.code.quality.tools", version = "0.23.0" }
-dependencygraphgenerator = { id = "com.vanniktech.dependency.graph.generator", version = "0.8.0" }
+#
+#[plugins]
+#codequalitytools = { id = "com.vanniktech.code.quality.tools", version = "0.23.0" }
+#dependencygraphgenerator = { id = "com.vanniktech.dependency.graph.generator", version = "0.8.0" }
