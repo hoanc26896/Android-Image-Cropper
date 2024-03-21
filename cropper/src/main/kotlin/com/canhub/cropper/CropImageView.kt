@@ -735,6 +735,17 @@ class CropImageView @JvmOverloads constructor(
   }
 
   /**
+   * Sets a Camera Bitmap as the content of the CropImageView.
+   *
+   * [bitmap] the Bitmap to set
+   */
+  fun setCameraImageBitmap(bitmap: Bitmap?) {
+    setBitmap(
+      bitmap = bitmap,
+    )
+  }
+
+  /**
    * Sets a Bitmap and initializes the image rotation according to the EXIT data.<br></br>
    * <br></br>
    * The EXIF can be retrieved by doing the following: `
