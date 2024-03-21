@@ -740,9 +740,7 @@ class CropImageView @JvmOverloads constructor(
    * [bitmap] the Bitmap to set
    */
   fun setCameraImageBitmap(bitmap: Bitmap?) {
-    setBitmap(
-      bitmap = bitmap,
-    )
+      originalBitmap = bitmap;
   }
 
   /**
